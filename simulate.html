@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Ciclic</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ciclic</h1>
+    </header>
+
+    <form class="container-center" id="investment-form">
+        <legend><b>Simulador</b></legend>
+        <div class="form-row">
+            <label for="name-user">Nome</label>
+            <input name="name-user" type="text">
+        </div>
+        <div class="form-row">
+            <label for="monthly-payment">Mensalidade</label>
+            <input name="monthly-payment" type="number">
+        </div>
+        <div class="form-row">
+            <label for="time">Tempo</label>
+            <select name="time">
+                <option>1 ano</option>
+                <option>2 anos</option>
+                <option>3 anos</option>
+                <option>4 anos</option>
+                <option>5 anos</option>
+                <option>6 anos</option>
+                <option>7 anos</option>
+                <option>8 anos</option>
+                <option>9 anos</option>
+                <option>10 anos</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <button id="submit-form" type="submit">Simular</button>
+        </div>
+    </form>
+
+</body>
+
+<script type="module" src="src/js/simulateScript.js"></script>
+
+</html>

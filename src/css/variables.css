@@ -1,0 +1,18 @@
+:root {
+    --color-background: linear-gradient(to bottom, rgb(233, 249, 249), #c5eeef);
+    --color-background-box: rgb(255, 255, 255);
+    --color-border-input: rgb(0, 204, 255);
+    --color-font-form: rgb(90, 90, 90);
+    --color-button-form: linear-gradient(to bottom, rgb(233, 240, 249), #326781);
+}
+@font-face {
+    font-family: 'Ubunto';
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-Italic.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-LightItalic.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype');
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');    
+  }
